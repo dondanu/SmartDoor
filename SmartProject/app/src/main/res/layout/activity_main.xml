@@ -1,0 +1,97 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="#D3D3D3">
+
+    <!-- ImageView in the top-right corner -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/topRightImage"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="0dp"
+        android:elevation="10dp"
+        android:src="@drawable/p" />
+
+    <EditText
+        android:id="@+id/passwordBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="20dp"
+        android:background="#808080"
+        android:hint="Enter Password"
+        android:padding="15dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordBox"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#2BD9D6"
+        android:text="Unlock"
+        android:textColor="#161CA2"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Status message -->
+    <TextView
+        android:id="@+id/statusMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubmit"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="#D3D3D3"
+        android:padding="10dp"
+        android:text="Status will appear here"
+        android:textColor="#100000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- "View History" button -->
+
+    <!-- ImageView at the bottom of the screen -->
+
+    <Button
+        android:id="@+id/viewHistoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusMessage"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#5CA6E5"
+        android:text="View History"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/bottomImage"
+        android:layout_width="382dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="#F3F3F3"
+        android:contentDescription="Image at the bottom of the screen"
+        android:src="@drawable/s3" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "873331113959",
+    "project_id": "smart-project-b20eb",
+    "storage_bucket": "smart-project-b20eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873331113959:android:c0efdb288c1914b8cac742",
+        "android_client_info": {
+          "package_name": "com.example.smartproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnup2pwOK4ytjp6FT0F4D2wdGeIUjzZhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
